@@ -18,3 +18,5 @@ The intention of this docker compose was to test [multi container in Azure App S
    - name the mount as `configuration` so the `docker-compose.yml` woks, as it is defined there
 3. Upload to Storage Account mounted path files and check them through App Service URL
 
+# see also
+https://docs.microsoft.com/en-us/answers/questions/343312/azure-app-services-w-docker-compose-volume-persist.html
