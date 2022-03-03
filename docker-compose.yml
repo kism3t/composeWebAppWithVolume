@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  web:
+    image: nginx:latest 
+    ports:
+      - "8080:80"
+    volumes:
+      - configuration:/usr/share/nginx/html
+volumes:
+  configuration:
+    external: true

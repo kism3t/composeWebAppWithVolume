@@ -1,0 +1,26 @@
+{
+  "routes": {
+    "profileGet": "https://e2r2s03pwascxp01.azurewebsites.net/profile/me",
+    "profilePost": "https://e2r2s03pwascxp01.azurewebsites.net/profile/me",
+    "profile": "https://e2r2s03pwascxp01.azurewebsites.net/profile"
+  },
+  "idp": {
+    "clientId": "4fb84b7c-627c-441c-a89c-5d7a9c4236c1",
+    "defaultAuthority": "",
+    "tenantId": "5444bcdd-4856-42a6-87d9-6fe9414347e6UfukAltin",
+    "baseUrl": "https://B2CLindeMHDEV.b2clogin.com/B2CLindeMHDEV.onmicrosoft.com/",
+    "host": "https://myaccount-dev.linde-mh.com/",
+    "redirectUri": "https://myaccount-dev.linde-mh.com/",
+    "nonce": "none",
+    "scope": "openid",
+    "responseType": "token",
+    "prompt": "login",
+    "identity": {
+      "kion": "B2C_1A_CXP_SIGNINSIGNUP_KION",
+      "lmh": "B2C_1A_CXP_SIGNINSIGNUP_LMH",
+      "stl": "B2C_1A_CXP_SIGNINSIGNUP_STILL"
+    }
+  }
+}
+
+
